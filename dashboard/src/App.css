@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  overflow: hidden;
+}
+
+.nav-container {
+  background: #000;
+  color: white;
+  cursor: pointer;
+  position: fixed;
+  left: 0;
+  margin: 10px;
+  height: 100vh;
+  margin: 0px;
+}
+
+.logo-container {
+  background-color: #001529;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  width: 100%;
+}
+.logo {
+  margin: 0 0 0 15px;
+}
+.logo a {
+  color: white;
+}
+
+.navbar {
+  position: absolute;
+  margin: auto;
+  top: 0px;
+  left: 211px;
+  width: 85vw;
+  box-shadow: rgb(196, 191, 191) 0px 1px;
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  padding: 40px;
+  top: 70px;
+  left: 200px;
+  width: 85vw;
+  cursor: pointer;
+}
+
+.card-container {
+  display: flex;
+  position: absolute;
+  padding: 40px;
+  justify-content: space-between;
+  top: 150px;
+  left: 200px;
+  width: 85vw;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding-top: 20px;
+  padding-left: 2px;
+}
+
+.footer-container {
+  background: #000;
+  color: white;
+  cursor: pointer;
+  left: 0;
+  margin: 10px;
+  height: 100vh;
+  margin: 0px;
+  position: fixed;
+  top:520px;
+}
